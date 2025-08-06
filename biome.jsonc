@@ -4,6 +4,9 @@
   "javascript": {
     "formatter": {
       "semicolons": "asNeeded"
+    },
+    "parser": {
+      "unsafeParameterDecoratorsEnabled": true
     }
   },
   "linter": {
@@ -11,6 +14,9 @@
       "style": {
         "noParameterProperties": "off",
         "useConsistentMemberAccessibility": "off"
+      },
+      "complexity": {
+        "noStaticOnlyClass": "off"
       }
     }
   }
