@@ -13,7 +13,8 @@
     "rules": {
       "style": {
         "noParameterProperties": "off",
-        "useConsistentMemberAccessibility": "off"
+        "useConsistentMemberAccessibility": "off",
+        "useImportType": "off"
       },
       "complexity": {
         "noStaticOnlyClass": "off"

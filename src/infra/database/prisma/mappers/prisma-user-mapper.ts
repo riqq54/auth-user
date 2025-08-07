@@ -1,4 +1,4 @@
-import type { Prisma, User as PrismaUser } from '@prisma/client'
+import { Prisma, User as PrismaUser } from '@prisma/client'
 import { User } from '@/app/entities/user'
 import { UniqueEntityID } from '@/core/entities/unique-entity-id'
 

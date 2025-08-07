@@ -9,7 +9,7 @@ import {
 } from '@nestjs/common'
 import z from 'zod'
 import { UserAlreadyExistsError } from '@/app/use-cases/errors/user-already-exists-error'
-import type { RegisterUserUseCase } from '@/app/use-cases/register-user'
+import { RegisterUserUseCase } from '@/app/use-cases/register-user'
 import { ZodValidationPipe } from '../pipes/zod-validation-pipe'
 
 const createAccountBodySchema = z.object({
