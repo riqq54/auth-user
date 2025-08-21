@@ -27,7 +27,7 @@ describe('Register User', () => {
     })
   })
 
-  it('should has user password upon registration', async () => {
+  it('should hash user password upon registration', async () => {
     const result = await sut.execute({
       name: 'John Doe',
       email: 'johndoe@example.com',
